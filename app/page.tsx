@@ -74,7 +74,12 @@ export default function Home() {
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center' }}>
-              <span className="heading" style={{ margin: 0 }}>PAI</span>
+              <img
+                src="/pai_logo_full_black.png"
+                alt="PAI"
+                className="logo-image"
+                style={{ height: 'clamp(32px, 6vw, 48px)' }}
+              />
             </div>
             <div
               style={{
@@ -126,7 +131,7 @@ export default function Home() {
           {/* Hero Text */}
           <div style={{ textAlign: 'center', marginBottom: 'clamp(32px, 6vh, 48px)' }}>
             <h1 className="display-heading" style={{ marginBottom: 'clamp(12px, 2vh, 16px)' }}>
-              Query AI Digital Twins
+              Query AI Twins
             </h1>
             <p className="body-text" style={{ maxWidth: '600px', margin: '0 auto', opacity: 0.8 }}>
               Get instant consumer insights by asking questions to our AI-powered digital personas.
