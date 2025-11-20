@@ -78,7 +78,7 @@ export default function Home() {
                 src="/pai_logo_full_black.png"
                 alt="PAI"
                 className="logo-image"
-                style={{ height: 'clamp(24px, 4vw, 36px)' }}
+                style={{ height: 'clamp(20px, 3.5vw, 28px)' }}
               />
             </div>
             <div
