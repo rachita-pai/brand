@@ -326,13 +326,6 @@ function DemoContent() {
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <button
-                onClick={() => router.push('/')}
-                className="btn-secondary"
-                style={{ padding: '8px 16px', fontSize: '13px' }}
-              >
-                ← Back
-              </button>
               <img
                 src="/pai_logo_full_black.png"
                 alt="PAI"
@@ -344,18 +337,27 @@ function DemoContent() {
                 {productName}
               </span>
             </div>
-            <div
-              style={{
-                backgroundColor: queriesUsed >= MAX_QUERIES ? 'rgba(239, 68, 68, 0.1)' : 'rgba(34, 197, 94, 0.1)',
-                border: `1px solid ${queriesUsed >= MAX_QUERIES ? 'rgba(239, 68, 68, 0.3)' : 'rgba(34, 197, 94, 0.3)'}`,
-                borderRadius: '20px',
-                padding: '6px 16px',
-                fontSize: '12px',
-                fontWeight: 500,
-                color: queriesUsed >= MAX_QUERIES ? '#DC2626' : '#059669',
-              }}
-            >
-              {queriesUsed}/{MAX_QUERIES} queries
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+              <div
+                style={{
+                  backgroundColor: queriesUsed >= MAX_QUERIES ? 'rgba(239, 68, 68, 0.1)' : 'rgba(34, 197, 94, 0.1)',
+                  border: `1px solid ${queriesUsed >= MAX_QUERIES ? 'rgba(239, 68, 68, 0.3)' : 'rgba(34, 197, 94, 0.3)'}`,
+                  borderRadius: '20px',
+                  padding: '6px 16px',
+                  fontSize: '12px',
+                  fontWeight: 500,
+                  color: queriesUsed >= MAX_QUERIES ? '#DC2626' : '#059669',
+                }}
+              >
+                {queriesUsed}/{MAX_QUERIES} queries
+              </div>
+              <button
+                onClick={() => router.push('/')}
+                className="btn-secondary"
+                style={{ padding: '8px 16px', fontSize: '13px' }}
+              >
+                ← Back
+              </button>
             </div>
           </div>
         </div>
