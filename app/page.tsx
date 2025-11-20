@@ -134,7 +134,7 @@ export default function Home() {
               Query AI Twins
             </h1>
             <p className="body-text" style={{ maxWidth: '600px', margin: '0 auto', opacity: 0.8 }}>
-              Get instant consumer insights by asking questions to our AI-powered digital personas.
+              Get instant consumer insights by asking questions to our AI twins.
               Select a product to begin.
             </p>
           </div>
@@ -200,7 +200,7 @@ export default function Home() {
           {/* Demo Info */}
           <div style={{ textAlign: 'center', marginTop: 'clamp(24px, 4vh, 32px)' }}>
             <p className="body-text" style={{ fontSize: 'clamp(11px, 1.8vw, 13px)', opacity: 0.6 }}>
-              You'll have <strong>10 queries</strong> to ask our AI digital twins
+              You'll have <strong>10 queries</strong> to ask our AI twins
             </p>
           </div>
         </div>
