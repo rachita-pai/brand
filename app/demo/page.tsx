@@ -337,7 +337,7 @@ function DemoContent() {
                 src="/pai_logo_full_black.png"
                 alt="PAI"
                 className="logo-image"
-                style={{ height: 'clamp(28px, 5vw, 40px)' }}
+                style={{ height: 'clamp(20px, 3.5vw, 28px)' }}
               />
               <span style={{ fontSize: 'clamp(20px, 4vw, 28px)' }}>{productEmoji}</span>
               <span className="heading" style={{ margin: 0, fontSize: 'clamp(16px, 3vw, 20px)' }}>

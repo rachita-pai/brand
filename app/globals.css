@@ -279,9 +279,9 @@ body {
 
 .chat-input-container {
   padding: clamp(12px, 2vh, 16px);
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur(10px);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
   border-radius: 20px 20px 0 0;
 }
 
