@@ -213,7 +213,7 @@ function DemoContent() {
       {
         id: '1',
         role: 'assistant',
-        content: `Welcome to the PAI Brand Demo! I'm analyzing responses from our AI digital twins regarding ${
+        content: `Welcome to the PAI Demo! I'm analyzing responses from our AI twins of real people regarding ${
           product === 'pickles' ? 'pickles' : 'overnight oats'
         }. You have ${MAX_QUERIES} queries available. Ask me anything about consumer preferences, behaviors, or opinions!`,
         timestamp: new Date(),
