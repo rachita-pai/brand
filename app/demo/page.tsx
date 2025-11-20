@@ -324,20 +324,27 @@ function DemoContent() {
       {/* Header */}
       <header className="header" style={{ flexShrink: 0, borderBottom: '1px solid rgba(0, 0, 0, 0.1)' }}>
         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr auto 1fr', alignItems: 'center', gap: '12px' }}>
+            {/* Left: Logo */}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'flex-start' }}>
               <img
                 src="/pai_logo_full_black.png"
                 alt="PAI"
                 className="logo-image"
                 style={{ height: 'clamp(20px, 3.5vw, 28px)' }}
               />
+            </div>
+
+            {/* Center: Product */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', justifyContent: 'center' }}>
               <span style={{ fontSize: 'clamp(20px, 4vw, 28px)' }}>{productEmoji}</span>
               <span className="heading" style={{ margin: 0, fontSize: 'clamp(16px, 3vw, 20px)' }}>
                 {productName}
               </span>
             </div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+
+            {/* Right: Query counter and Back button */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '12px', justifyContent: 'flex-end' }}>
               <div
                 style={{
                   backgroundColor: queriesUsed >= MAX_QUERIES ? 'rgba(239, 68, 68, 0.1)' : 'rgba(34, 197, 94, 0.1)',
