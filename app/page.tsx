@@ -102,7 +102,7 @@ export default function Home() {
                   color: '#374151',
                 }}
               >
-                Brand Demo
+                Demo
               </div>
             </div>
           </div>
