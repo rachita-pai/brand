@@ -211,7 +211,7 @@ export default function Home() {
           {/* Demo Info */}
           <div style={{ textAlign: 'center', marginTop: 'clamp(24px, 4vh, 32px)' }}>
             <p className="body-text" style={{ fontSize: 'clamp(11px, 1.8vw, 13px)', opacity: 0.6 }}>
-              You'll have <strong>10 queries</strong> to ask our AI twins
+              Ask up to <strong>10 questions</strong> to 100+ AI twins
             </p>
           </div>
         </div>
