@@ -82,19 +82,6 @@ export default function Home() {
               />
             </div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-              <div
-                style={{
-                  backgroundColor: 'rgba(17, 24, 39, 0.1)',
-                  border: '1px solid rgba(17, 24, 39, 0.2)',
-                  borderRadius: '20px',
-                  padding: '6px 16px',
-                  fontSize: '12px',
-                  fontWeight: 500,
-                  color: '#374151',
-                }}
-              >
-                Brand Demo
-              </div>
               <a
                 href="https://calendly.com/gigi-pai/30min"
                 target="_blank"
@@ -108,6 +95,16 @@ export default function Home() {
               >
                 Book a Demo
               </a>
+              <div
+                style={{
+                  fontSize: '12px',
+                  fontWeight: 400,
+                  color: '#6b7280',
+                  opacity: 0.7,
+                }}
+              >
+                Brand Demo
+              </div>
             </div>
           </div>
         </div>
